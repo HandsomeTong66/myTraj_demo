@@ -1,0 +1,3 @@
+现在开roscore，再打开rviz，在rviz中找到demo.rviz配置文件打开，运行 roslaunch grid_path_searcher demo.launch，将visitedNode下面的Topic改为/traj_generator_node/vis_traj，只看轨迹将gridPath去掉(2020.08.11已经将rviz启动加入到launch文件中，但由于不会配置，所以还需将visitedNode下面的Topic改为/traj_generator_node/vis_traj)
+
+waypoint_generator生成一个最终目标点发布出去，demo_node节点接收（<remap from="~waypoints"       to="/waypoint_generator/waypoints"/>）并且在rcvPointCloudCallBack中通过path finding给定start，target通过pathing finding模块找到所有路标点并通过_waypoints_pub                = nh.advertise<nav_msgs::Path>("waypoints_to_back", 50)将所有路标点发布出去，trajectory_generator_node节点接收（<remap from="~waypoints" to="/demo_node/waypoints_to_back"/>）并且在rcvWaypointsCallBack中根据这些点生成轨迹（trajGeneration(waypoints);）

@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/hua/minimum_snap/devel/include/**",
+                "/home/hua/GTOP/devel/include/**",
+                "/home/hua/minimum_snap_ooqp/devel/include/**",
+                "/home/hua/catkin_roslearn/devel/include/**",
+                "/home/hua/catkin_replan/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/hua/catkin_replan/src/ground_station/simulation/cascade_control/include/**",
+                "/home/hua/catkin_replan/src/ground_station/utils/DecompRos/decomp_ros_utils/include/**",
+                "/home/hua/GTOP/src/grad_traj_optimization/include/**",
+                "/home/hua/myTraj/src/grid_path_searcher/include/**",
+                "/home/hua/catkin_replan/src/ground_station/joy_ctrl/include/**",
+                "/home/hua/catkin_roslearn/src/learn_rviz_tf/include/**",
+                "/home/hua/catkin_roslearn/src/learning_communication/include/**",
+                "/home/hua/catkin_replan/src/ground_station/simulation/mission_template/include/**",
+                "/home/hua/catkin_roslearn/src/nav_path/include/**",
+                "/home/hua/catkin_rrt/src/path_planning/path_planning/include/**",
+                "/home/hua/catkin_replan/src/ground_station/polyhedron_generator/include/**",
+                "/home/hua/catkin_replan/src/ground_station/utils/pose_utils/include/**",
+                "/home/hua/catkin_roslearn/src/pub_sub_test/include/**",
+                "/home/hua/minimum_snap/src/MinimumSnap-Trajectory-Generation/quadrotor_msgs/include/**",
+                "/home/hua/catkin_roslearn/src/read_param_test/include/**",
+                "/home/hua/catkin_replan/src/ground_station/simulation/router/include/**",
+                "/home/hua/catkin_replan/src/ground_station/simulation/so3_quadrotor_simulator/include/**",
+                "/home/hua/catkin_replan/src/ground_station/simulation/state_machine/include/**",
+                "/home/hua/catkin_replan/src/ground_station/global_planner/include/**",
+                "/home/hua/catkin_replan/src/ground_station/utils/uav_utils/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
